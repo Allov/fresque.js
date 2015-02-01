@@ -1,0 +1,20 @@
+{
+  "name": "fresque.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Allov/fresque.js",
+  "authors": [
+    "Allov <frederik.charest@gmail.com>"
+  ],
+  "description": "Templated component manager using placeholders.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "rc.component.router": "~0.1.9"
+  }
+}
