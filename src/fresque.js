@@ -13,6 +13,8 @@ define(['jquery', 'router', 'knockout-utilities'],
             var deferred = new $.Deferred();
             
             var calls = [];
+            
+            // replace with api
             $.getJSON('/data/pages.json', function(pages) {
                 for(var i in pages) {
                     calls.push($.getJSON('/data/' + pages[i], function(page) {
